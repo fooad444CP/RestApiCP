@@ -21,6 +21,8 @@ the project uses a live DB hosted on azure.
 The project itself is also live on azure and can be accessed at "https://restapicp.azurewebsites.net", example of calling the api to like a post:
 https://restapicp.azurewebsites.net/api/like?id=27 , which will like the post with id 27.
 
-the program contains a docker file, create docker image and then you can run it on docker
+the program contains a docker file, create docker image and then you can run it on docker:
+
 docker build -t <imageName> .
+  
 docker run  -p <port> <imageName>
