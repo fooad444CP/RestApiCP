@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "RestApiCP": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 32504,
+      "useSSL": false
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "storage1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/restapicp20210604184758s",
+      "type": "storage.azure",
+      "connectionId": "AzureWebJobsStorage"
+    },
+    "appInsights1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Insights/components/RestApiCP",
+      "type": "appInsights.azure",
+      "connectionId": "APPINSIGHTS_CONNECTIONSTRING",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
